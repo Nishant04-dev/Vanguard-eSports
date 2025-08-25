@@ -101,7 +101,7 @@ function App() {
       date: "March, 2025",
       prize: "₹11,000",
       status: "Completed",
-      image: "https://www.pexels.com/photo/33614154/"
+      image: "https://images.pexels.com/photo/33614154/"
     }
   ];
 
