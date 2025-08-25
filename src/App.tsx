@@ -83,25 +83,25 @@ function App() {
 
   const tournaments = [
     {
-      title: "BGMI Championship 2025",
-      date: "March 15-17, 2025",
-      prize: "₹50,000",
+      title: "LAN EVENT ",
+      date: "XX-XX-XX",
+      prize: "₹XX,XXX",
       status: "Upcoming",
       image: "https://images.pexels.com/photos/442576/pexels-photo-442576.jpeg?auto=compress&cs=tinysrgb&w=400"
     },
     {
-      title: "Winter Clash Tournament",
-      date: "February 8-10, 2025",
-      prize: "₹25,000",
-      status: "Registration Open",
-      image: "https://images.pexels.com/photos/3165335/pexels-photo-3165335.jpeg?auto=compress&cs=tinysrgb&w=400"
+      title: "MONSOON CUP",
+      date: "August, 2025",
+      prize: "₹21,000",
+      status: "Registration Close",
+      image: "https://www.instagram.com/p/DLMQHRvTsmJ/?igsh=MXF4cDZjMGJ5NWdrag=="
     },
     {
-      title: "Squad Showdown",
-      date: "January 20-22, 2025",
-      prize: "₹15,000",
+      title: "Summer Showdown",
+      date: "March, 2025",
+      prize: "₹11,000",
       status: "Completed",
-      image: "https://images.pexels.com/photos/7915438/pexels-photo-7915438.jpeg?auto=compress&cs=tinysrgb&w=400"
+      image: "https://cdn.discordapp.com/attachments/1374699637121744906/1374701129371357284/bgmi_5k_2.jpg?ex=6863bdb1&is=68626c31&hm=8c95153356f064358342ad1463852dda014fa97a3296ca5278d1fe9d8b5416bf&"
     }
   ];
 
