@@ -311,27 +311,27 @@ function App() {
                     <th className="pb-3 text-cyan-400">Rank</th>
                     <th className="pb-3 text-cyan-400">Team</th>
                     <th className="pb-3 text-cyan-400">Points</th>
-                    <th className="pb-3 text-cyan-400">Matches</th>
+                    
                   </tr>
                 </thead>
                 <tbody>
                   <tr className="border-b border-gray-700/50">
                     <td className="py-3 text-yellow-400 font-bold">1</td>
-                    <td className="py-3">Team Alpha</td>
-                    <td className="py-3 text-green-400">2450</td>
-                    <td className="py-3">12</td>
+                    <td className="py-3">Team TBR</td>
+                    <td className="py-3 text-green-400">58</td>
+                    
                   </tr>
                   <tr className="border-b border-gray-700/50">
                     <td className="py-3 text-gray-300 font-bold">2</td>
-                    <td className="py-3">Team Beta</td>
-                    <td className="py-3 text-green-400">2380</td>
-                    <td className="py-3">11</td>
+                    <td className="py-3">Team ZENITHXMISTAKE101</td>
+                    <td className="py-3 text-green-400">31</td>
+                    
                   </tr>
                   <tr className="border-b border-gray-700/50">
                     <td className="py-3 text-orange-400 font-bold">3</td>
-                    <td className="py-3">Team Gamma</td>
-                    <td className="py-3 text-green-400">2210</td>
-                    <td className="py-3">10</td>
+                    <td className="py-3">Team XEBEC</td>
+                    <td className="py-3 text-green-400">31</td>
+                    
                   </tr>
                 </tbody>
               </table>
