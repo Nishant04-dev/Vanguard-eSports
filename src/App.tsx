@@ -520,7 +520,7 @@ function App() {
                   <div>
                     <p className="text-gray-300 text-sm">Email us at</p>
                     <a 
-                      href="mailto:support@vanguard.fun"
+                      href="mailto:support@vanguardesport.fun"
                       className="text-cyan-400 hover:text-cyan-300 transition-colors font-semibold"
                     >
                       support@vanguard.fun
