@@ -352,7 +352,7 @@ function App() {
       </p>
 
       <!-- Web3Forms Integration -->
-      <form action="https://api.web3forms.com/submit" method="POST" class="bg-gradient-to-br from-gray-800 to-gray-900 p-8 rounded-lg border border-cyan-500/20">
+      <form action="https://api.web3forms.com/submit" method="POST">
         
         <!-- Required Web3Forms Access Key -->
         <input type="hidden" name="5e8bcf4e-df0b-46e3-a8a8-db30983882b1" value="5e8bcf4e-df0b-46e3-a8a8-db30983882b1">
