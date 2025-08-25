@@ -468,7 +468,7 @@ function App() {
                   rel="noopener noreferrer"
                   className="flex items-center px-6 py-3 bg-gradient-to-r from-pink-500 to-purple-600 rounded-lg font-semibold hover:shadow-lg hover:shadow-pink-500/25 transition-all duration-300 transform hover:scale-105"
                 >
-                  <Instagram className="mr-2" size={20} />
+                  <MessageCircle className="mr-2" size={20} />
                   Follow on Instagram
                 </a>             
                  <a
