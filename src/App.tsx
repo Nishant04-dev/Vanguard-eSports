@@ -341,98 +341,106 @@ function App() {
       </section>
 
       {/* Staff Recruitment Section */}
-      <section id="staff" class="py-20 bg-gray-800/50">
-  <div class="container mx-auto px-4">
-    <div class="max-w-2xl mx-auto">
-      <h2 class="text-4xl md:text-5xl font-bold text-center mb-6 bg-gradient-to-r from-cyan-400 to-purple-500 bg-clip-text text-transparent">
-        Join Our Team
-      </h2>
-      <p class="text-center text-gray-300 mb-12">
-        Ready to be part of the gaming revolution? We're looking for passionate individuals to help us grow the eSports community.
-      </p>
+      
 
-      <!-- Web3Forms Integration -->
-      <form action="https://api.web3forms.com/submit" method="POST">
-        
-        <!-- Required Web3Forms Access Key -->
-        <input type="hidden" name="5e8bcf4e-df0b-46e3-a8a8-db30983882b1" value="5e8bcf4e-df0b-46e3-a8a8-db30983882b1">
 
-        <div class="grid md:grid-cols-2 gap-6 mb-6">
-          <div>
-            <label class="block text-cyan-400 mb-2">Name *</label>
-            <input
-              type="text"
-              name="name"
-              required
-              class="w-full px-4 py-3 bg-gray-700/50 border border-gray-600 rounded-lg focus:border-cyan-400 focus:outline-none transition-colors text-white"
-            />
-          </div>
-          <div>
-            <label class="block text-cyan-400 mb-2">Age *</label>
-            <input
-              type="number"
-              name="age"
-              required
-              class="w-full px-4 py-3 bg-gray-700/50 border border-gray-600 rounded-lg focus:border-cyan-400 focus:outline-none transition-colors text-white"
-            />
-          </div>
-        </div>
 
-        <div class="grid md:grid-cols-2 gap-6 mb-6">
-          <div>
-            <label class="block text-cyan-400 mb-2">Email *</label>
-            <input
-              type="email"
-              name="email"
-              required
-              class="w-full px-4 py-3 bg-gray-700/50 border border-gray-600 rounded-lg focus:border-cyan-400 focus:outline-none transition-colors text-white"
-            />
-          </div>
-          <div>
-            <label class="block text-cyan-400 mb-2">Contact Number *</label>
-            <input
-              type="tel"
-              name="contact"
-              required
-              class="w-full px-4 py-3 bg-gray-700/50 border border-gray-600 rounded-lg focus:border-cyan-400 focus:outline-none transition-colors text-white"
-            />
-          </div>
-        </div>
-
-        <div class="mb-6">
-          <label class="block text-cyan-400 mb-2">Past Experience</label>
-          <textarea
-            name="experience"
-            rows="4"
-            class="w-full px-4 py-3 bg-gray-700/50 border border-gray-600 rounded-lg focus:border-cyan-400 focus:outline-none transition-colors text-white"
-            placeholder="Tell us about your gaming and organizational experience..."
-          ></textarea>
-        </div>
-
-        <div class="mb-8">
-          <label class="block text-cyan-400 mb-2">Why should we hire you? *</label>
-          <textarea
-            name="whyHire"
-            required
-            rows="4"
-            class="w-full px-4 py-3 bg-gray-700/50 border border-gray-600 rounded-lg focus:border-cyan-400 focus:outline-none transition-colors text-white"
-            placeholder="What unique value do you bring to Vanguard eSports?"
-          ></textarea>
-        </div>
-
-        <!-- Redirect URL after submission (optional) -->
-        <input type="hidden" name="redirect" value="https://yourwebsite.com/thank-you">
-
-        <button
-          type="submit"
-          class="w-full py-4 bg-gradient-to-r from-cyan-500 to-purple-600 rounded-lg font-semibold hover:shadow-lg hover:shadow-cyan-500/25 transition-all duration-300 transform hover:scale-105 flex items-center justify-center"
-        >
-          Submit Application
-        </button>
-      </form>
-    </div>
-  </div>
-</section>
+<section id="staff" className="py-20 bg-gray-800/50">  
+        <div className="container mx-auto px-4">  
+          <div className="max-w-2xl mx-auto">  
+            <h2 className="text-4xl md:text-5xl font-bold text-center mb-6 bg-gradient-to-r from-cyan-400 to-purple-500 bg-clip-text text-transparent">  
+              Join Our Team  
+            </h2>  
+            <p className="text-center text-gray-300 mb-12">  
+              Ready to be part of the gaming revolution? We're looking for passionate individuals to help us grow the eSports community.  
+            </p>  <form onSubmit={handleFormSubmit} className="bg-gradient-to-br from-gray-800 to-gray-900 p-8 rounded-lg border border-cyan-500/20">  
+          <div className="grid md:grid-cols-2 gap-6 mb-6">  
+            <div>  
+              <label className="block text-cyan-400 mb-2">Name *</label>  
+              <input  
+                type="text"  
+                name="name"  
+                value={formData.name}  
+                onChange={handleFormChange}  
+                required  
+                className="w-full px-4 py-3 bg-gray-700/50 border border-gray-600 rounded-lg focus:border-cyan-400 focus:outline-none transition-colors text-white"  
+              />  
+            </div>  
+            <div>  
+              <label className="block text-cyan-400 mb-2">Age *</label>  
+              <input  
+                type="number"  
+                name="age"  
+                value={formData.age}  
+                onChange={handleFormChange}  
+                required  
+                className="w-full px-4 py-3 bg-gray-700/50 border border-gray-600 rounded-lg focus:border-cyan-400 focus:outline-none transition-colors text-white"  
+              />  
+            </div>  
+          </div>  
+            
+          <div className="grid md:grid-cols-2 gap-6 mb-6">  
+            <div>  
+              <label className="block text-cyan-400 mb-2">Email *</label>  
+              <input  
+                type="email"  
+                name="email"  
+                value={formData.email}  
+                onChange={handleFormChange}  
+                required  
+                className="w-full px-4 py-3 bg-gray-700/50 border border-gray-600 rounded-lg focus:border-cyan-400 focus:outline-none transition-colors text-white"  
+              />  
+            </div>  
+            <div>  
+              <label className="block text-cyan-400 mb-2">Contact Number *</label>  
+              <input  
+                type="tel"  
+                name="contact"  
+                value={formData.contact}  
+                onChange={handleFormChange}  
+                required  
+                className="w-full px-4 py-3 bg-gray-700/50 border border-gray-600 rounded-lg focus:border-cyan-400 focus:outline-none transition-colors text-white"  
+              />  
+            </div>  
+          </div>  
+            
+          <div className="mb-6">  
+            <label className="block text-cyan-400 mb-2">Past Experience</label>  
+            <textarea  
+              name="experience"  
+              value={formData.experience}  
+              onChange={handleFormChange}  
+              rows={4}  
+              className="w-full px-4 py-3 bg-gray-700/50 border border-gray-600 rounded-lg focus:border-cyan-400 focus:outline-none transition-colors text-white"  
+              placeholder="Tell us about your gaming and organizational experience..."  
+            ></textarea>  
+          </div>  
+            
+          <div className="mb-8">  
+            <label className="block text-cyan-400 mb-2">Why should we hire you? *</label>  
+            <textarea  
+              name="whyHire"  
+              value={formData.whyHire}  
+              onChange={handleFormChange}  
+              required  
+              rows={4}  
+              className="w-full px-4 py-3 bg-gray-700/50 border border-gray-600 rounded-lg focus:border-cyan-400 focus:outline-none transition-colors text-white"  
+              placeholder="What unique value do you bring to Vanguard eSports?"  
+            ></textarea>  
+          </div>  
+            
+          <button  
+            type="submit"  
+            className="w-full py-4 bg-gradient-to-r from-cyan-500 to-purple-600 rounded-lg font-semibold hover:shadow-lg hover:shadow-cyan-500/25 transition-all duration-300 transform hover:scale-105 flex items-center justify-center"  
+          >  
+            <Send className="mr-2" size={20} />  
+            Submit Application  
+          </button>  
+        </form>  
+      </div>  
+    </div>  
+  </section>
+              
 
       {/* Community Section */}
       <section id="community" className="py-20">
