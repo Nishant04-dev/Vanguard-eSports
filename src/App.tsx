@@ -523,7 +523,7 @@ function App() {
                       href="mailto:support@vanguardesport.fun"
                       className="text-cyan-400 hover:text-cyan-300 transition-colors font-semibold"
                     >
-                      support@vanguard.fun
+                      support@vanguardesport.fun
                     </a>
                   </div>
                 </div>
