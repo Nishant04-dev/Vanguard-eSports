@@ -159,10 +159,7 @@ function App() {
       {/* Hero Section */}
       
         
-        <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
-          <div className="mb-8">
-            <Target size={80} className="mx-auto text-cyan-400 mb-6 animate-pulse" />
-          </div>
+        
           <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-cyan-400 via-purple-500 to-green-400 bg-clip-text text-transparent animate-fade-in">
             Vanguard eSports
           </h1>
