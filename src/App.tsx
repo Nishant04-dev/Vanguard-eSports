@@ -94,7 +94,7 @@ function App() {
       date: "August, 2025",
       prize: "₹21,000",
       status: "Registration Close",
-      image: "IMG_20250621_175947.jpg"
+      image: "https://pin.it/6FQCCLZAq"
     },
     {
       title: "Summer Showdown",
