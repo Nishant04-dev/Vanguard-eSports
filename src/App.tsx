@@ -94,14 +94,14 @@ function App() {
       date: "August, 2025",
       prize: "₹21,000",
       status: "Registration Close",
-      image: "https://www.instagram.com/p/DLMQHRvTsmJ/?igsh=MXF4cDZjMGJ5NWdrag=="
+      image: "IMG_20250621_175947.jpg"
     },
     {
       title: "Summer Showdown",
       date: "March, 2025",
       prize: "₹11,000",
       status: "Completed",
-      image: "https://cdn.discordapp.com/attachments/1374699637121744906/1374701129371357284/bgmi_5k_2.jpg?ex=6863bdb1&is=68626c31&hm=8c95153356f064358342ad1463852dda014fa97a3296ca5278d1fe9d8b5416bf&"
+      image: "bgmi_5k_2.jpg"
     }
   ];
 
