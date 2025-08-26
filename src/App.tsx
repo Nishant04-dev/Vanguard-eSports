@@ -473,14 +473,15 @@ function App() {
                   Follow on Instagram
                 </a>             
                  <a
-                  href="https://discord.gg/titan-esports-tm-857368002629337117"></a>
-                
+                  href="https://discord.gg/titan-esports-tm-857368002629337117"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   <button className="flex items-center px-6 py-3 bg-gradient-to-r from-pink-500 to-purple-600 rounded-lg font-semibold hover:shadow-lg hover:shadow-pink-500/25 transition-all duration-300 transform hover:scale-105">
                 
                   <MessageCircle className="mr-2" size={20} />
                   Join Discord 
                     </button>
-              
+              </a>
             </div>
               </div>
             
