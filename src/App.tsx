@@ -95,14 +95,14 @@ function App() {
       date: "August, 2025",
       prize: "₹21,000",
       status: "Registration Close",
-      image: "https://pin.it/6FQCCLZAq?auto=compress&cs=tinysrgb&w=400"
+      image: "IMG_20250621_175947.jpg?auto=compress&cs=tinysrgb&w=400"
     },
     {
       title: "Summer Showdown",
       date: "March, 2025",
       prize: "₹11,000",
       status: "Completed",
-      image: "https://images.pexels.com/photo/33614154/?auto=compress&cs=tinysrgb&w=400"
+      image: "bgmi_5k_2.jpg?auto=compress&cs=tinysrgb&w=400"
     }
   ];
 
