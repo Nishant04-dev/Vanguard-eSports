@@ -159,14 +159,7 @@ function App() {
 
       {/* Hero Section */}
       
-        <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-purple-900/20 via-gray-900 to-cyan-900/20"></div>
-        <div className="absolute inset-0">
-          <div className="absolute top-20 left-20 w-2 h-2 bg-cyan-400 rounded-full animate-pulse"></div>
-          <div className="absolute top-40 right-32 w-1 h-1 bg-purple-400 rounded-full animate-pulse delay-300"></div>
-          <div className="absolute bottom-40 left-1/4 w-1.5 h-1.5 bg-green-400 rounded-full animate-pulse delay-700"></div>
-          <div className="absolute bottom-20 right-20 w-1 h-1 bg-cyan-400 rounded-full animate-pulse delay-1000"></div>
-        </div>
+        
         <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
           <div className="mb-8">
             <Target size={80} className="mx-auto text-cyan-400 mb-6 animate-pulse" />
