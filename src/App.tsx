@@ -471,7 +471,8 @@ function App() {
                 >
                   <Instagram className="mr-2" size={20} />
                   Follow on Instagram
-                </a>             
+                </a>        
+                <div className="flex flex-col sm:flex-row gap-4">
                  <a
                   href="https://discord.gg/titan-esports-tm-857368002629337117"
                   target="_blank"
@@ -482,6 +483,7 @@ function App() {
                   Join Discord 
                     </button>
               </a>
+                </div>
             </div>
               </div>
             
