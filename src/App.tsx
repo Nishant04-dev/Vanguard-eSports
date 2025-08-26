@@ -175,6 +175,7 @@ function App() {
           </h1>
           <p className="text-xl md:text-2xl mb-4 text-gray-300 animate-fade-in-delay-1">
             Leading the next-gen gaming revolution.
+            #VictorystartswithV
           </p>
           <p className="text-lg md:text-xl mb-8 text-cyan-400 font-semibold animate-fade-in-delay-2">
             BGMI | Tournaments | Community
